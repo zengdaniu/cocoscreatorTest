@@ -1,0 +1,112 @@
+2020-03-09T10:09:09.267Z - normal: Load ~/.CocosCreator/settings.json
+2020-03-09T10:09:10.548Z - normal: Initializing Asset Database
+2020-03-09T10:09:10.552Z - normal: checking language setting...
+2020-03-09T10:09:10.553Z - normal: Language: zh
+2020-03-09T10:09:12.113Z - success: preview server running at http://localhost:7456
+2020-03-09T10:09:12.116Z - success: protocol editor-framework registered
+2020-03-09T10:09:12.116Z - success: protocol app registered
+2020-03-09T10:09:12.117Z - success: protocol theme registered
+2020-03-09T10:09:12.117Z - success: protocol packages registered
+2020-03-09T10:09:12.117Z - success: protocol uuid registerred
+2020-03-09T10:09:12.117Z - success: protocol db registerred
+2020-03-09T10:09:12.117Z - success: protocol thumbnail registerred
+2020-03-09T10:09:12.117Z - success: protocol unpack registerred
+2020-03-09T10:09:12.118Z - success: protocol disable-commonjs registerred
+2020-03-09T10:09:12.313Z - normal: connected!
+2020-03-09T10:09:12.317Z - normal: Check project D:\start_project\start_project
+2020-03-09T10:09:12.322Z - normal: Initializing project D:\start_project\start_project
+2020-03-09T10:09:12.996Z - normal: Initializing Cocos2d
+2020-03-09T10:09:14.947Z - normal: Initializing engine extends
+2020-03-09T10:09:15.002Z - success: asset-db-debugger loaded
+2020-03-09T10:09:15.003Z - success: baidu-adapter loaded
+2020-03-09T10:09:15.005Z - success: color-picker loaded
+2020-03-09T10:09:15.221Z - success: fb-audience-network loaded
+2020-03-09T10:09:15.328Z - success: fb-live-stream loaded
+2020-03-09T10:09:15.334Z - success: google-play-instant loaded
+2020-03-09T10:09:15.341Z - success: huawei-runtime loaded
+2020-03-09T10:09:15.890Z - success: cpk-publish loaded
+2020-03-09T10:09:15.891Z - success: jsb-adapter loaded
+2020-03-09T10:09:15.905Z - success: oppo-runtime loaded
+2020-03-09T10:09:15.912Z - success: package-manager loaded
+2020-03-09T10:09:16.190Z - success: qqplay-adapter loaded
+2020-03-09T10:09:16.193Z - success: runtime-dev-tools loaded
+2020-03-09T10:09:16.200Z - success: sdkbox loaded
+2020-03-09T10:09:16.204Z - success: tester loaded
+2020-03-09T10:09:16.207Z - success: ui-grid loaded
+2020-03-09T10:09:16.209Z - success: ui-kit-preview-extra loaded
+2020-03-09T10:09:16.213Z - success: ui-kit-preview loaded
+2020-03-09T10:09:16.215Z - success: ui-kit loaded
+2020-03-09T10:09:16.217Z - success: ui-tree loaded
+2020-03-09T10:09:16.223Z - success: vivo-runtime loaded
+2020-03-09T10:09:16.225Z - success: weapp-adapter loaded
+2020-03-09T10:09:16.225Z - success: xiaomi-adapter loaded
+2020-03-09T10:09:16.314Z - success: assets loaded
+2020-03-09T10:09:16.317Z - success: builder loaded
+2020-03-09T10:09:16.905Z - success: cocos-services loaded
+2020-03-09T10:09:16.918Z - success: console loaded
+2020-03-09T10:09:16.998Z - success: fb-instant-games loaded
+2020-03-09T10:09:17.005Z - success: game-window loaded
+2020-03-09T10:09:17.008Z - success: google-instant-games loaded
+2020-03-09T10:09:17.020Z - success: hierarchy loaded
+2020-03-09T10:09:17.026Z - success: inspector loaded
+2020-03-09T10:09:17.029Z - success: keystore loaded
+2020-03-09T10:09:17.040Z - success: node-library loaded
+2020-03-09T10:09:17.043Z - success: package-asset loaded
+2020-03-09T10:09:17.045Z - success: preferences loaded
+2020-03-09T10:09:17.047Z - success: project-exporter loaded
+2020-03-09T10:09:17.056Z - success: project-importer loaded
+2020-03-09T10:09:17.063Z - success: project-settings loaded
+2020-03-09T10:09:17.068Z - success: scene loaded
+2020-03-09T10:09:17.069Z - success: simulator-debugger loaded
+2020-03-09T10:09:17.070Z - success: sprite-editor loaded
+2020-03-09T10:09:17.074Z - success: store loaded
+2020-03-09T10:09:17.085Z - success: timeline loaded
+2020-03-09T10:09:17.100Z - success: xiaomi-runtime loaded
+2020-03-09T10:09:19.021Z - normal: Loading packages
+2020-03-09T10:09:19.030Z - normal: Watching packages
+2020-03-09T10:09:19.801Z - info: Cocos Services load base data!
+2020-03-09T10:09:19.886Z - normal: Run Application
+2020-03-10T03:40:46.515Z - failed: load script [D:\start_project\start_project\temp\quick-scripts\assets\scripts\draw\player.js] failed : D:\start_project\start_project\temp\quick-scripts\assets\scripts\draw\player.js:47
+            ;
+            ^
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:53:10)
+    at Object.runInThisContext (vm.js:95:10)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at c (D:\CocosCreator_2.1.2\resources\app.asar\editor\page\project-scripts.js:1:458)
+2020-03-10T03:40:46.518Z - failed: load script [D:\start_project\start_project\temp\quick-scripts\assets\scripts\player.js] failed : D:\start_project\start_project\temp\quick-scripts\assets\scripts\draw\player.js:47
+            ;
+            ^
+SyntaxError: Unexpected token ;
+    at createScript (vm.js:53:10)
+    at Object.runInThisContext (vm.js:95:10)
+    at Module._compile (module.js:543:28)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at c (D:\CocosCreator_2.1.2\resources\app.asar\editor\page\project-scripts.js:1:458)
+2020-03-10T08:32:50.758Z - warn: The Asset used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Canvas/arrow"
+Missing uuid: "192fba76-de64-47e7-b179-4029ceb1a34c"
+
+2020-03-10T09:03:52.054Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:05:08.837Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:05:11.255Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:06:31.183Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:07:21.463Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:07:25.848Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:07:29.071Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:12:30.865Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:12:42.078Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:12:49.716Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:12:53.334Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-10T09:12:53.637Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
