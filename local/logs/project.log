@@ -110,3 +110,6 @@ Missing uuid: "192fba76-de64-47e7-b179-4029ceb1a34c"
 2020-03-10T09:12:49.716Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
 2020-03-10T09:12:53.334Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
 2020-03-10T09:12:53.637Z - info: 只有预制节点 "arrow" 及其子节点会被保存。
+2020-03-11T06:10:50.055Z - normal: cocos2d: Warning: TMX Layer 块层 1 has no tiles
+2020-03-11T07:09:52.076Z - warn: [db-task][sync-changes] uuid collision, the uuid(17133fad-373e-4949-8de1-386eb32ffa84) for D:\start_project\start_project\assets\resources\map1.tmx is already used. A new uuid(72862891-2a12-4d1d-86fa-fee673d9d362) will be assigned.
+2020-03-12T02:14:27.167Z - info: shutdown preview server

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="PurpleMonster" tilewidth="32" tileheight="32">
+  <image source="../resources/PurpleMonster.png" trans="ff00ff" width="78" height="67"/>
+ </tileset>
+ <layer name="layer" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDARgBGKmAbCXGYhZBsBecsBoGI2CUTAKhioAAG0IABU=
+  </data>
+ </layer>
+ <objectgroup name="monster">
+  <object name="point1" x="890" y="199"/>
+  <object name="point2" x="890" y="466"/>
+ </objectgroup>
+ <objectgroup name="player">
+  <object name="startPoint" x="77" y="276"/>
+ </objectgroup>
+</map>

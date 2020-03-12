@@ -515,8 +515,8 @@
     "relativePath": "scripts\\login\\login.js"
   },
   "cd88e5b5-fe28-481d-bdbd-1a6008929abe": {
-    "asset": 1583889592470,
-    "meta": 1583889592487,
+    "asset": 1583923658935,
+    "meta": 1583923658947,
     "relativePath": "drawLine.fire"
   },
   "cae4f665-f885-447c-bb1f-e37cadb01319": {
@@ -554,14 +554,44 @@
     "meta": 1583831770532,
     "relativePath": "scripts\\draw\\touchEvent.ts"
   },
-  "5d3d82f8-d048-4e2c-add6-032c7fb3af8e": {
-    "asset": 1583832352039,
-    "meta": 1583832390992,
-    "relativePath": "scripts\\draw\\player.ts"
-  },
   "dd4a02df-c75b-4d5d-b619-494a210d0e3d": {
     "asset": 1583893933788,
     "meta": 1583894155233,
     "relativePath": "scripts\\draw\\arrow.ts"
+  },
+  "af93719e-ce1d-4c6a-8e1b-8055e5bbfb26": {
+    "asset": 1583910592081,
+    "meta": 1583910592073,
+    "relativePath": "resources"
+  },
+  "8eeb65f7-a8b9-4dea-b524-e3aa3e176bc8": {
+    "asset": 1526930962000,
+    "meta": 1583910592525,
+    "relativePath": "resources\\PurpleMonster.png"
+  },
+  "00ce7fb0-214b-4c81-9d25-663cf47433d4": {
+    "asset": 1526930962000,
+    "meta": 1583910592542,
+    "relativePath": "resources\\star.png"
+  },
+  "17133fad-373e-4949-8de1-386eb32ffa84": {
+    "asset": 1583910937124,
+    "meta": 1583910959879,
+    "relativePath": "textures\\map1.tmx"
+  },
+  "72862891-2a12-4d1d-86fa-fee673d9d362": {
+    "asset": 1583922229733,
+    "meta": 1583922235913,
+    "relativePath": "resources\\map1.tmx"
+  },
+  "d3ab21d9-dbfb-44e2-870c-0bba0392b10c": {
+    "asset": 1583923760250,
+    "meta": 1583923762205,
+    "relativePath": "scripts\\draw\\gamenode.ts"
+  },
+  "5d3d82f8-d048-4e2c-add6-032c7fb3af8e": {
+    "asset": 1583923708214,
+    "meta": 1583923762207,
+    "relativePath": "scripts\\draw\\player.ts"
   }
 }

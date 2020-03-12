@@ -1,6 +1,6 @@
 "use strict";
-cc._RF.push(module, '5d3d8L40EhOLK3WAyx/s6+O', 'player');
-// scripts/draw/player.ts
+cc._RF.push(module, 'd3ab2HZ2/tE4ocMC7oDkrEM', 'gamenode');
+// scripts/draw/gamenode.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {
@@ -24,50 +24,48 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
-var Player = /** @class */ (function (_super) {
-    __extends(Player, _super);
-    function Player() {
+var GameNode = /** @class */ (function (_super) {
+    __extends(GameNode, _super);
+    function GameNode() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.arrow = null;
-        _this.arrows = [];
-        _this._arrow_index = 0;
+        _this.map = null;
+        _this.player = null;
+        _this.monster = null;
+        _this._tiledMap = null;
+        _this._player = null;
         return _this;
-        // update (dt) {
-        // }
+        // update (dt) {}
     }
-    Player.prototype.onLoad = function () {
-        var arrow;
-        for (var i = 0; i < 10; i++) {
-            arrow = cc.instantiate(this.arrow);
-            this.node.addChild(arrow);
-            this.arrows[i] = arrow.getComponent("arrow");
-            this.arrows[i].node.active = false;
-        }
-        this.arrows[this._arrow_index].node.position = cc.v2(20, 0);
-        this.arrows[this._arrow_index].node.active = true;
+    GameNode.prototype.onLoad = function () {
+        this._tiledMap = this.map.getComponent(cc.TiledMap);
+        this._player = this.player.getComponent('player');
+        var self = this;
+        cc.loader.loadRes("map1", function (err, map) {
+            self._tiledMap.tmxAsset = map;
+            self.setPlayerPos();
+        });
     };
-    Player.prototype.setPalyerPos = function (pos) {
-        this.node.position = pos;
+    GameNode.prototype.start = function () {
     };
-    Player.prototype.drawStrack = function (vecNor, length) {
-        this.arrows[this._arrow_index].drawStrack(vecNor, length);
-    };
-    Player.prototype.shot = function () {
-        this.arrows[this._arrow_index].shot();
-        this._arrow_index++;
-        if (this._arrow_index == 10)
-            this._arrow_index = 0;
-        this.arrows[this._arrow_index].node.position = cc.v2(20, 0);
-        this.arrows[this._arrow_index].node.active = true;
+    GameNode.prototype.setPlayerPos = function () {
+        var startPoint = this._tiledMap.getObjectGroup('player').getObject('startPoint');
+        cc.log("x=" + startPoint.x + " y=" + startPoint.y);
+        this._player.setPalyerPos(cc.v2(startPoint.x, startPoint.y));
     };
     __decorate([
-        property(cc.Prefab)
-    ], Player.prototype, "arrow", void 0);
-    Player = __decorate([
+        property(cc.Node)
+    ], GameNode.prototype, "map", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GameNode.prototype, "player", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GameNode.prototype, "monster", void 0);
+    GameNode = __decorate([
         ccclass
-    ], Player);
-    return Player;
+    ], GameNode);
+    return GameNode;
 }(cc.Component));
-exports.default = Player;
+exports.default = GameNode;
 
 cc._RF.pop();

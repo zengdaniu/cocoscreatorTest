@@ -47,7 +47,7 @@
                     ],
                     "height": 480,
                     "type": "panel",
-                    "width": 733.8125
+                    "width": 767.296875
                   },
                   {
                     "active": 0,
@@ -56,7 +56,7 @@
                     ],
                     "height": 480,
                     "type": "panel",
-                    "width": 398.640625
+                    "width": 365.140625
                   }
                 ],
                 "height": 480,
@@ -103,17 +103,6 @@
         "cocos-services",
         "scene"
       ]
-    },
-    "about": {
-      "main": false,
-      "url": "app://editor/page/app-about.html",
-      "windowType": "dockable",
-      "x": 2679,
-      "y": 362,
-      "width": 400,
-      "height": 200,
-      "layout": null,
-      "panels": []
     }
   },
   "panels": {

@@ -21,6 +21,9 @@ export default class Player extends cc.Component {
         this.arrows[this._arrow_index].node.position=cc.v2(20,0);
         this.arrows[this._arrow_index].node.active=true;
     }
+    setPalyerPos(pos:cc.Vec2){
+        this.node.position = pos;
+    }
     drawStrack(vecNor:cc.Vec2,length:number){
         this.arrows[this._arrow_index].drawStrack(vecNor,length);
     }

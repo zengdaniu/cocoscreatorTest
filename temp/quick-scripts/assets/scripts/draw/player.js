@@ -46,6 +46,9 @@ var Player = /** @class */ (function (_super) {
         this.arrows[this._arrow_index].node.position = cc.v2(20, 0);
         this.arrows[this._arrow_index].node.active = true;
     };
+    Player.prototype.setPalyerPos = function (pos) {
+        this.node.position = pos;
+    };
     Player.prototype.drawStrack = function (vecNor, length) {
         this.arrows[this._arrow_index].drawStrack(vecNor, length);
     };
